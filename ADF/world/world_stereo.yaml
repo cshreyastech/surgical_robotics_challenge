@@ -55,10 +55,12 @@ cameraL:
   #   fragment: shader.fs
   publish image: True
   publish image interval: 5
-  publish image resolution: { width: 640, height: 480 }
+  # publish image resolution: { width: 640, height: 480 }
   # publish image resolution: { width: 1920, height: 1080 }
+  publish image resolution: { width: 1280, height: 960 }
   publish depth: True
-  publish depth resolution: { width: 640, height: 480 }
+  # publish depth resolution: { width: 640, height: 480 }
+  publish depth resolution: { width: 1280, height: 960 }
   # multipass: True
 
 cameraL2:
@@ -78,10 +80,13 @@ cameraL2:
   publish image: True
   visible: False
   publish image interval: 5
+  publish image interval: 5
+  # publish image resolution: { width: 640, height: 480 }
   # publish image resolution: { width: 1920, height: 1080 }
-  publish image resolution: { width: 640, height: 480 }
+  publish image resolution: { width: 1280, height: 960 }
   publish depth: True
-  publish depth resolution: { width: 640, height: 480 }
+  # publish depth resolution: { width: 640, height: 480 }
+  publish depth resolution: { width: 1280, height: 960 }
   # multipass: True
 
 cameraR:
@@ -100,10 +105,12 @@ cameraR:
   #   fragment: shader.fs
   publish image: True
   publish image interval: 5
+  # publish image resolution: { width: 640, height: 480 }
   # publish image resolution: { width: 1920, height: 1080 }
-  publish image resolution: { width: 640, height: 480 }
+  publish image resolution: { width: 1280, height: 960 }
   publish depth: True
-  publish depth resolution: { width: 640, height: 480 }
+  # publish depth resolution: { width: 640, height: 480 }
+  publish depth resolution: { width: 1280, height: 960 }
   # multipass: True
 
 camera3:
